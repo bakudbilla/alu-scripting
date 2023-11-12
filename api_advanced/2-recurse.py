@@ -4,7 +4,7 @@
 import requests
 
 
-def recurse(subreddit, hot_list=[], after=""):    
+def recurse(subreddit, hot_list=[], after=""):   
     URL = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
 
     HEADERS = {"User-Agent": "PostmanRuntime/7.35.0"}
